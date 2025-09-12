@@ -14,7 +14,7 @@ This is a pre-configured Obsidian vault structure designed to work seamlessly wi
 
 ### 1. Clone and Install
 ```bash
-git clone https://github.com/yourusername/claudesidian.git
+git clone https://github.com/heyitsnoah/claudesidian.git
 cd claudesidian
 ./install.sh  # Automated setup script
 ```
