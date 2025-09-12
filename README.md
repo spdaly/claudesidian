@@ -128,8 +128,21 @@ Pre-configured AI assistants ready to use:
 - `research-assistant` - Deep dive into topics
 - `daily-review` - End of day reflection
 - `weekly-synthesis` - Find patterns in your week
+- `create-command` - Build new custom commands
+- `de-ai-ify` - Remove AI writing patterns from text
 
 Run with: `claude run [command-name]`
+
+## Vision & Document Analysis (Optional)
+
+With Gemini MCP configured, you can:
+- Analyze images and screenshots
+- Extract text from PDFs
+- Compare multiple images
+- Generate smart filenames
+- Process documents
+
+See `.claude/mcp-servers/README.md` for setup
 
 ## Helper Scripts
 

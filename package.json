@@ -2,7 +2,10 @@
   "name": "claudesidian",
   "version": "1.0.0",
   "description": "Claude Code + Obsidian Starter Kit - AI-powered second brain",
+  "type": "module",
   "scripts": {
+    "setup": "npm install && echo '✅ Setup complete! Configure GEMINI_API_KEY for vision features'",
+    "test-gemini": "GEMINI_API_KEY=${GEMINI_API_KEY} node .claude/mcp-servers/gemini-vision.mjs",
     "attachments:list": "ls -1 '05_Attachments/' | grep -v Organized | head -20",
     "attachments:count": "ls -1 '05_Attachments/' | grep -v Organized | wc -l",
     "attachments:organized": "ls -1 '05_Attachments/Organized' 2>/dev/null | wc -l || echo '0'",
@@ -24,5 +27,9 @@
     "para-method"
   ],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  }
 }
