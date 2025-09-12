@@ -41,7 +41,7 @@ Centralized location for:
 
 ## Helper Scripts
 
-Run these with `npm run` or `pnpm`:
+Run these with `pnpm`:
 
 ### Viewing Status
 - `attachments:list` - List unprocessed files

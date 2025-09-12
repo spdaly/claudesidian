@@ -31,12 +31,12 @@ Adds powerful image and document analysis capabilities using Google's Gemini mod
 
 3. **Install Dependencies**
    ```bash
-   npm install
+   pnpm install
    ```
 
 4. **Test Setup**
    ```bash
-   npm run test-gemini
+   pnpm test-gemini
    ```
 
 ### Available Commands

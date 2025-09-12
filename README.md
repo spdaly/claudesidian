@@ -12,10 +12,17 @@ This is a pre-configured Obsidian vault structure designed to work seamlessly wi
 
 ## Quick Start
 
-### 1. Clone the Repository
+### 1. Clone and Install
 ```bash
 git clone https://github.com/yourusername/claudesidian.git
 cd claudesidian
+./install.sh  # Automated setup script
+```
+
+Or manually:
+```bash
+pnpm install  # Install dependencies
+mkdir -p 05_Attachments/Organized  # Create organized folder
 ```
 
 ### 2. Open in Obsidian (Optional but Recommended)
@@ -146,7 +153,7 @@ See `.claude/mcp-servers/README.md` for setup
 
 ## Helper Scripts
 
-Run these with `npm run` or `pnpm`:
+Run these with `pnpm`:
 
 - `attachments:list` - Show unprocessed attachments
 - `attachments:organized` - Count organized files

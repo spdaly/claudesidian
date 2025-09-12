@@ -36,7 +36,7 @@ Extracts transcripts from YouTube videos.
 
 ## NPM Scripts
 
-Run these from the vault root with `npm run` or `pnpm`:
+Run these from the vault root with `pnpm`:
 
 | Command | Description |
 |---------|-------------|
