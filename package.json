@@ -11,7 +11,8 @@
     "attachments:sizes": "find 05_Attachments -type f -exec du -h {} + | sort -rh | head -20",
     "attachments:orphans": "for file in 05_Attachments/*; do basename \"$file\" | xargs -I {} sh -c 'grep -r \"{}\" . --include=\"*.md\" > /dev/null || echo \"{}\"'; done",
     "attachments:recent": "find 05_Attachments -type f -mtime -7 -exec ls -la {} \\;",
-    "attachments:create-organized": "mkdir -p 05_Attachments/Organized"
+    "attachments:create-organized": "mkdir -p 05_Attachments/Organized",
+    "vault:stats": ".scripts/vault-stats.sh"
   },
   "keywords": [
     "obsidian",
