@@ -119,6 +119,18 @@ Can you review all notes in [project folder]
 and create a synthesis of the key themes and insights?
 ```
 
+## Claude Code Commands
+
+Pre-configured AI assistants ready to use:
+
+- `thinking-partner` - Explore ideas through questions
+- `inbox-processor` - Organize your captures  
+- `research-assistant` - Deep dive into topics
+- `daily-review` - End of day reflection
+- `weekly-synthesis` - Find patterns in your week
+
+Run with: `claude run [command-name]`
+
 ## Helper Scripts
 
 Run these with `npm run` or `pnpm`:
@@ -127,6 +139,7 @@ Run these with `npm run` or `pnpm`:
 - `attachments:organized` - Count organized files
 - `attachments:sizes` - Find large files
 - `attachments:orphans` - Find unreferenced attachments
+- `vault:stats` - Show vault statistics
 
 ## Advanced Setup
 
