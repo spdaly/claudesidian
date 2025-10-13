@@ -867,5 +867,5 @@ This is **not an either/or choice** - Microsoft explicitly positions these as co
 **Next Action:** Schedule discovery workshop with Seven Corners stakeholders to validate assumptions and gather requirements.
 
 **Research Date:** 2025-10-10
-**Researcher:** [Your Name]
+**Researcher:** Steve Daly
 **Status:** Ready for stakeholder review
