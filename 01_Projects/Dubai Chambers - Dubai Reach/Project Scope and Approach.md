@@ -13,7 +13,7 @@ tags: [dubai-chambers, ai, b2b-platform, mvp, conversational-ai, azure]
 
 ## Executive Summary
 
-Dubai Chambers seeks to develop "Dubai Reach," an AI-enabled supplier discovery platform that will serve as the foundational MVP for a future full-scale B2B marketplace. This 12-week accelerated development project will deliver a responsive web application enabling corporate buyers to discover Dubai Chambers member companies through conversational AI, leveraging **Microsoft's AI platform stack (Copilot Studio, Azure AI Foundry, and Azure AI Search)** to provide advanced natural language processing capabilities in both Arabic and English.
+Dubai Chambers seeks to develop "Dubai Reach," an AI-enabled supplier discovery platform that will serve as the foundational MVP for a future full-scale B2B marketplace. This 12-week accelerated development project will deliver a responsive web application enabling corporate buyers to discover Dubai Chambers member companies through conversational AI, built on an **integrated platform stack combining Sharetribe marketplace software (Azure-hosted), Microsoft Copilot Studio, Azure AI Foundry, and Azure AI Search** to provide advanced natural language processing capabilities in both Arabic and English.
 
 ---
 
@@ -69,61 +69,219 @@ Dubai Chambers seeks to develop "Dubai Reach," an AI-enabled supplier discovery 
 - Supplier shortlisting and contact management
 
 **2. Backend Services and Infrastructure**
+- **Sharetribe Marketplace Platform** (Azure-hosted) - Core marketplace infrastructure
+  - User profiles and supplier listings management
+  - Messaging and communication system
+  - Transaction workflow engine
+  - Node.js/Express server foundation
 - **Microsoft Copilot Studio** conversational AI platform (NLU+, multi-channel deployment)
-- **Azure AI Search** semantic search and knowledge base (supplier profiles, RAG capabilities)
+- **Azure AI Search** semantic search and knowledge base (supplier profiles indexed from Sharetribe, RAG capabilities)
 - **Azure AI Foundry** custom LLM orchestration (Phase 2 enhancement)
-- API Gateway with centralized request routing
-- Supplier Service orchestration layer
-- PostgreSQL database architecture (Application + Supplier Catalog)
-- Azure AD B2C authentication integration
+- **Sharetribe Integration API** - Real-time data synchronization with AI services
+- Azure AD B2C authentication integration (SSO with Sharetribe)
+- PostgreSQL database (Sharetribe-managed + custom extensions)
 
-**Microsoft AI Platform Architecture (Hybrid Approach):**
+**Marketplace Platform Evaluation and Architectural Decision:**
+
+**Background - Marketplace Software Landscape:**
+
+We evaluated major marketplace platform solutions combined with Microsoft's AI services to determine the optimal architecture for Dubai Reach:
+
+**Marketplace Platforms Evaluated:**
+
+1. **Sharetribe (Azure-Hosted)** - Marketplace platform with AI integration [SELECTED]
+   - **Deployment:** Self-hosted on Azure (Node.js/Express server)
+   - **Strengths:** Rapid marketplace deployment, proven platform, Azure-native when self-hosted
+   - **AI Integration:** Via Sharetribe Integration API + webhooks to Microsoft AI services
+   - **Previous Concerns RESOLVED:**
+     - **Azure hosting** - Sharetribe can be self-hosted on Azure (unified cloud)
+     - **Transaction fees** - Avoided by self-hosting (no $0.19/transaction fee)
+     - **Conversational AI** - Integrated via Copilot Studio + Azure AI Search
+     - **Customization** - Full access via Sharetribe Web Template and Integration API
+
+2. **CS-Cart Multi-Vendor** - Self-hosted PHP marketplace
+   - **Limitations:** No native AI/NLP capabilities, legacy PHP stack vs. modern Node.js
+
+3. **Magento (Adobe Commerce)** - Enterprise eCommerce platform
+   - **Limitations:** No conversational AI, B2C-focused, heavy platform overhead
+
+**Why Sharetribe on Azure with Microsoft AI is NOW the Optimal Solution:**
+
+**Key Discovery:** Sharetribe can be **self-hosted on Azure** using the Sharetribe Web Template (Node.js/Express), eliminating previous concerns:
+
+1. **Unified Azure Ecosystem:**
+   - Sharetribe platform on Azure App Service
+   - Microsoft Copilot Studio + Azure AI Search + Azure AI Foundry on Azure
+   - Single cloud provider = simplified architecture, lower latency, unified security
+
+2. **No Transaction Fees:**
+   - Self-hosted deployment eliminates Sharetribe's $0.19/transaction fee
+   - Only Azure infrastructure costs apply
+
+3. **Deep Integration via Sharetribe APIs:**
+   - **Integration API** - Real-time access to all marketplace data (users, listings, transactions, messages)
+   - **Webhooks** - Event-driven triggers for AI processing (new listing → index in Azure AI Search)
+   - **JavaScript SDK** - Simplified integration development
+   - **Custom Extensions** - Extend listing data and user profiles for AI metadata
+
+4. **Accelerated Development:**
+   - Sharetribe provides marketplace foundation (user management, listings, messaging, transactions)
+   - Microsoft AI services provide conversational search layer
+   - 30-40% less custom code vs. building marketplace + AI from scratch
+
+**Architectural Decision: Integrated Sharetribe + Microsoft AI Platform**
+
+Dubai Reach will use an **integrated architecture** combining:
+- **Sharetribe Marketplace Platform** (Azure-hosted) - Core marketplace infrastructure
+- **Microsoft Copilot Studio** - Conversational AI interface layer
+- **Azure AI Search** - Semantic search indexed from Sharetribe data via Integration API
+- **Azure AI Foundry** - Advanced orchestration (Phase 2)
+
+**Comparison: 100% Custom vs. Sharetribe + Microsoft AI (Integrated)**
+
+| Criterion                      | 100% Custom Development             | **Sharetribe (Azure) + Microsoft AI** ✅                    |
+| ------------------------------ | ----------------------------------- | ---------------------------------------------------------- |
+| **Marketplace Foundation**     | Custom-built from scratch           | **Proven platform** (Sharetribe)                           |
+| **Conversational AI**          | Custom-built from scratch           | **Native** (Copilot Studio + Azure AI Search)              |
+| **Time to MVP**                | 16-20 weeks (build everything)      | **10-12 weeks** (platform + AI integration)                |
+| **Operational Cost**           | Hosting + ML team (~$15K-20K/month) | **$2,500-4,000/month** (Azure hosting + AI services)       |
+| **Azure Alignment**            | ✅ Azure-native                      | ✅ **Azure-native** (self-hosted Sharetribe)                |
+| **Transaction Fees**           | ✅ None                              | ✅ **None** (self-hosted eliminates fees)                   |
+| **User Management**            | Custom-built                        | **Built-in** (Sharetribe user profiles)                    |
+| **Messaging System**           | Custom-built                        | **Built-in** (Sharetribe messaging)                        |
+| **Listing Management**         | Custom-built                        | **Built-in** (Sharetribe listings + custom fields)         |
+| **AI Quality Control**         | ✅ Full control                      | ✅ **Full control** (Azure AI Foundry)                      |
+| **Arabic NLU Support**         | Custom-built required               | ✅ **Built-in** (Copilot Studio NLU+)                       |
+| **Scalability**                | ✅ Custom-designed                   | ✅ **Azure auto-scaling** (both Sharetribe + AI)            |
+| **2026 Marketplace Evolution** | ✅ Full control                      | ✅ **Built-in marketplace features** + AI enhancements      |
+| **Integration Complexity**     | N/A (monolithic)                    | ⚠️ **Moderate** (Sharetribe APIs + webhooks)               |
+| **Vendor Lock-In**             | ⚠️ Custom code maintenance          | ⚠️ **Sharetribe + Microsoft** (acceptable - Azure mandate) |
+
+**Recommended Approach: Integrated Sharetribe (Azure) + Microsoft AI Platform** 
+This integrated approach provides:
+- ✅ **Best of both worlds** - Proven marketplace platform + advanced AI capabilities
+- ✅ **Unified Azure ecosystem** - Single cloud provider (simpler, faster, more secure)
+- ✅ **No transaction fees** - Self-hosted deployment model
+- ✅ **50% platform, 50% integration** - Sharetribe handles marketplace, Microsoft handles AI
+- ✅ **Faster than 100% custom** - 10-12 weeks vs. 16-20 weeks
+- ✅ **Lower risk** - Proven platforms vs. building from scratch
+- ✅ **Lower TCO** - $2.5K-4K/month vs. $15K-20K/month for full custom maintenance
+- ✅ **2026 marketplace evolution** - Built-in marketplace features ready for expansion
+
+---
+
+**Integrated Sharetribe + Microsoft AI Architecture:**
 
 *Phase 1 MVP Architecture (Weeks 1-12):*
-```
-[User] → [Copilot Studio Conversational UI]
-       ↓
-[Azure AI Search Knowledge Base]
-  - Supplier Profiles (indexed from PostgreSQL)
-  - Product Catalogs (indexed from CMS)
-  - Certifications (indexed from Azure Blob Storage)
-  - Member Directory (indexed from SharePoint)
-       ↓
-[Azure OpenAI (GPT-4/GPT-5)] → Semantic understanding + Answer generation
-       ↓
-[Conversational Response with Supplier Recommendations + Citations]
+
+```mermaid
+graph TD
+    A[User] --> B[Copilot Studio Conversational UI]
+    A --> S[Sharetribe Web UI<br/>Azure-hosted]
+
+    S --> ST[Sharetribe Platform]
+    ST --> ST1[User Profiles & Listings]
+    ST --> ST2[Messaging System]
+    ST --> ST3[Transaction Workflows]
+    ST --> STDB[(PostgreSQL Database)]
+
+    ST --> API[Sharetribe Integration API]
+    API --> WH[Webhooks]
+    WH --> SYNC[Real-time Data Sync]
+
+    SYNC --> C[Azure AI Search Knowledge Base]
+    B --> C
+
+    C --> C1[Supplier Profiles<br/>synced from Sharetribe]
+    C --> C2[Product Catalogs<br/>synced from Sharetribe]
+    C --> C3[Certifications<br/>synced from Sharetribe]
+    C --> C4[Member Directory<br/>synced from Azure AD B2C]
+
+    C --> D[Azure OpenAI GPT-4/GPT-5]
+    D --> D1[Semantic Understanding]
+    D --> D2[Answer Generation]
+    D1 --> E[Conversational Response]
+    D2 --> E
+    E --> F[Supplier Recommendations + Citations]
+    F --> B
+    F --> S
+
+    style S fill:#FF6B6B,stroke:#C92A2A,stroke-width:2px,color:#fff
+    style ST fill:#FF8787,stroke:#C92A2A,stroke-width:2px
+    style B fill:#0078D4,stroke:#004578,stroke-width:2px,color:#fff
+    style C fill:#50E6FF,stroke:#0078D4,stroke-width:2px
+    style D fill:#FFB900,stroke:#D83B01,stroke-width:2px
+    style E fill:#00B294,stroke:#107C10,stroke-width:2px
 ```
 
-**Why This Architecture:**
-- **80% Platform, 20% Custom:** Microsoft provides conversational AI infrastructure (Copilot Studio, Azure AI Search, LLMs) as managed services
-- **Faster MVP:** 8-10 weeks to production vs. 16-20 weeks for 100% custom conversational AI
-- **Lower TCO:** $1,000-2,000/month operational cost vs. $200K-500K custom AI development
-- **Proven Technology:** Microsoft's 2025 platform updates (NLU+, MCP support, Agent Store) specifically address marketplace conversational search requirements
+**Why This Integrated Architecture:**
+- **50% Platform Foundation, 50% AI Integration:** Sharetribe provides proven marketplace infrastructure (user management, listings, messaging, transactions) while Microsoft provides conversational AI layer (Copilot Studio, Azure AI Search, Azure AI Foundry)
+- **Unified Azure Ecosystem:** Self-hosting Sharetribe on Azure eliminates multi-cloud complexity and transaction fees ($0.19/transaction saved)
+- **Faster MVP:** 10-12 weeks to production vs. 16-20 weeks for 100% custom marketplace + AI
+- **Lower TCO:** $2,500-4,000/month operational cost vs. $15K-20K/month for custom marketplace + ML team
+- **Proven Technology Stack:** Sharetribe's marketplace foundation (5,000+ deployments) + Microsoft's 2025 AI platform updates (NLU+, MCP support, Agent Store)
+- **Real-time Integration:** Sharetribe webhooks + Integration API enable event-driven synchronization with Azure AI Search
+- **30-40% Less Custom Code:** Leverage Sharetribe's built-in features instead of building user management, messaging, listings, and transactions from scratch
 
 *Phase 2 Enhancement (Post-MVP):*
-```
-[User] → [Copilot Studio UI Layer]
-       ↓
-[Azure AI Foundry Agent Service]
-  ├── Tool 1: Azure AI Search (supplier discovery)
-  ├── Tool 2: Custom Ranking Engine (personalized matching)
-  ├── Tool 3: RFP Generator API (procurement requests)
-  ├── Tool 4: External AI Partner Enrichment
-  └── Tool 5: Analytics API (usage tracking)
-       ↓
-[Multi-Agent Orchestration]
-  - Discovery Agent (supplier search)
-  - RFP Agent (procurement automation)
-  - Comparison Agent (side-by-side analysis)
-       ↓
-[Intelligent Response with Proactive Recommendations]
+
+```mermaid
+graph TD
+    A[User] --> B[Copilot Studio UI Layer]
+    A --> S[Sharetribe Web UI]
+
+    S --> ST[Sharetribe Platform Foundation]
+    ST --> ST1[User Profiles & Listings]
+    ST --> ST2[Messaging & Transactions]
+    ST --> ST3[Workflow Engine]
+
+    ST --> API[Sharetribe Integration API]
+    API --> WH[Webhooks]
+
+    B --> C[Azure AI Foundry Agent Service]
+
+    C --> T1[Tool 1: Azure AI Search<br/>Sharetribe supplier data]
+    C --> T2[Tool 2: Custom Ranking Engine<br/>personalized matching]
+    C --> T3[Tool 3: RFP Generator API<br/>procurement requests]
+    C --> T4[Tool 4: Sharetribe Transaction API<br/>booking & contact]
+    C --> T5[Tool 5: Analytics API<br/>usage tracking]
+
+    WH --> T1
+    API --> T1
+    API --> T4
+
+    T1 --> O[Multi-Agent Orchestration]
+    T2 --> O
+    T3 --> O
+    T4 --> O
+    T5 --> O
+
+    O --> A1[Discovery Agent<br/>supplier search + Sharetribe data]
+    O --> A2[RFP Agent<br/>procurement automation]
+    O --> A3[Comparison Agent<br/>side-by-side analysis]
+
+    A1 --> R[Intelligent Response]
+    A2 --> R
+    A3 --> R
+
+    R --> P[Proactive Recommendations]
+    P --> A
+    P --> S
+
+    style S fill:#FF6B6B,stroke:#C92A2A,stroke-width:2px,color:#fff
+    style ST fill:#FF8787,stroke:#C92A2A,stroke-width:2px
+    style B fill:#0078D4,stroke:#004578,stroke-width:2px,color:#fff
+    style C fill:#FFB900,stroke:#D83B01,stroke-width:2px
+    style O fill:#50E6FF,stroke:#0078D4,stroke-width:2px
+    style R fill:#00B294,stroke:#107C10,stroke-width:2px
 ```
 
 **Strategic Rationale:**
-- Aligns with Azure AD B2C mandate (already committed to Microsoft ecosystem for authentication)
-- Leverages existing Microsoft 365/Power Platform investments (potential licensing synergies)
-- Provides complete conversational AI stack without reinventing NLU, dialogue management, or multi-channel deployment
-- Enables 2026 marketplace evolution with proven technical foundation
+- **Unified Azure Platform:** Sharetribe (Azure-hosted) + Copilot Studio + Azure AI Foundry + Azure AI Search = single cloud provider, simplified security, lower latency
+- **Leverages Existing Investments:** Aligns with Azure AD B2C mandate + potential Microsoft 365/Power Platform licensing synergies
+- **Complete Stack Without Reinvention:** Sharetribe handles marketplace complexity (transactions, messaging, workflows) while Microsoft AI handles conversational intelligence
+- **API-Driven Integration:** Sharetribe Integration API + webhooks enable real-time data synchronization without tight coupling
+- **Future-Proof Foundation:** Proven marketplace platform enables 2026 full-scale marketplace evolution with mature technical foundation
 
 **3. Business Connection Features**
 - Meeting booking functionality
@@ -189,39 +347,39 @@ Dubai Chambers seeks to develop "Dubai Reach," an AI-enabled supplier discovery 
 
 **Out of Scope:**
 
-❌ **Full B2B Marketplace Features**
+ **Full B2B Marketplace Features**
 - Transactional capabilities (payments, invoicing)
 - Order management and fulfillment
 - Inventory management
 - Pricing and quotation engines
 - Shipping and logistics integration
 
-❌ **Advanced Platform Features**
+ **Advanced Platform Features**
 - Project collaboration tools
 - Success story showcase functionality
 - Opportunity marketplace
 - Advanced analytics and business intelligence
 - Mobile native applications (iOS/Android)
 
-❌ **Content Management**
+ **Content Management**
 - Member-generated content publishing
 - Blog or news functionality
 - Marketing campaign management
 - SEO optimization beyond basics
 
-❌ **External Integrations Beyond Specified**
+ **External Integrations Beyond Specified**
 - CRM system integration
 - ERP system integration
 - Third-party business tools (beyond RFP partner)
 - Social media integration
 
-❌ **Post-Launch Operations**
+ **Post-Launch Operations**
 - Ongoing member onboarding beyond initial batch
 - Content moderation and management
 - Customer support operations
 - Marketing and user acquisition
 
-❌ **Customization and White-Labeling**
+ **Customization and White-Labeling**
 - Multi-tenant architecture
 - Custom branding for sub-organizations
 - Regional variations beyond Arabic/English
@@ -551,21 +709,36 @@ Dubai Reach will leverage a **phased Microsoft platform adoption strategy** to b
 
 **Tools and Technology:**
 
-*Development:*
+*Marketplace Platform Foundation:*
+- **Sharetribe Web Template** (self-hosted on Azure App Service)
+  - Node.js/Express server foundation
+  - User management and authentication system
+  - Listing management and search
+  - Messaging and communication
+  - Transaction workflow engine
+  - PostgreSQL database (Sharetribe-managed schema + custom extensions)
+- **Sharetribe Integration API** - Real-time data access for AI services
+- **Sharetribe Webhooks** - Event-driven synchronization triggers
+- **Sharetribe JavaScript SDK** - Integration development toolkit
+
+*Conversational AI Layer:*
 - **Conversational AI Platform:** Microsoft Copilot Studio (NLU+, Agent Store, multi-channel)
-- **AI Knowledge Base:** Azure AI Search (semantic search, RAG, vectorization)
+- **AI Knowledge Base:** Azure AI Search (semantic search, RAG, vectorization of Sharetribe supplier data)
 - **Advanced AI Orchestration:** Azure AI Foundry (multi-agent workflows, custom LLM orchestration - Phase 2)
 - **LLM Services:** Azure OpenAI Service (GPT-4/GPT-5 for answer generation)
-- Frontend: React.js or Vue.js (custom marketplace UI)
-- Backend: Node.js or Python (FastAPI) for custom business logic
-- Database: PostgreSQL (supplier data, user management)
-- Authentication: Azure AD B2C
+
+*Custom Integration Layer:*
+- **Data Synchronization Service:** Azure Functions (webhook handlers for Sharetribe events)
+- **API Integration Service:** Node.js/Python (Sharetribe Integration API client)
+- **Search Indexing Pipeline:** Azure Functions (Sharetribe data → Azure AI Search)
+- **Authentication Integration:** Azure AD B2C ↔ Sharetribe SSO bridge
 
 *Infrastructure:*
-- Cloud Platform: Microsoft Azure
-- Container Orchestration: Azure Kubernetes Service (AKS) or Azure App Service
-- API Gateway: Azure API Management or similar
-- Monitoring: Azure Monitor, Application Insights
+- **Cloud Platform:** Microsoft Azure (unified ecosystem)
+- **Sharetribe Hosting:** Azure App Service (Node.js runtime)
+- **Serverless Compute:** Azure Functions (webhook processing, data sync)
+- **API Management:** Azure API Management (unified API gateway)
+- **Monitoring:** Azure Monitor, Application Insights (Sharetribe + AI services)
 
 *Project Management:*
 - Project Management: Jira or Azure DevOps
@@ -1241,12 +1414,12 @@ Dubai Reach will leverage a **phased Microsoft platform adoption strategy** to b
 **Development Team (12 weeks):**
 - Project Manager (1 FTE × 12 weeks @ $XX/week): $XX,XXX
 - Technical Lead/Architect (1 FTE × 12 weeks @ $XX/week): $XX,XXX
-- Frontend Developers (2 FTE × 12 weeks @ $XX/week each): $XX,XXX
-- Backend Developers (2 FTE × 12 weeks @ $XX/week each): $XX,XXX
+- **Sharetribe Integration Developer (1 FTE × 12 weeks @ $XX/week): $XX,XXX** - Deployment, API integration, webhook setup
+- Backend/Integration Developers (2 FTE × 12 weeks @ $XX/week each): $XX,XXX - Sharetribe↔AI data sync
 - AI/ML Engineer (1 FTE × 12 weeks @ $XX/week): $XX,XXX
 - DevOps Engineer (0.5 FTE × 12 weeks @ $XX/week): $XX,XXX
 - QA Engineer (1 FTE × 12 weeks @ $XX/week): $XX,XXX
-- UI/UX Designer (0.5 FTE × 12 weeks @ $XX/week): $XX,XXX
+- UI/UX Designer (0.5 FTE × 12 weeks @ $XX/week): $XX,XXX - Sharetribe customization
 
 **Dubai Chambers Internal Team (estimated time commitment):**
 - Product Owner (0.5 FTE × 12 weeks) - Internal resource cost
@@ -1257,25 +1430,51 @@ Dubai Reach will leverage a **phased Microsoft platform adoption strategy** to b
 
 #### **Technology and Infrastructure Costs: [TBD]**
 
+**Sharetribe Marketplace Platform (self-hosted on Azure):**
+- **Sharetribe Web Template License:** One-time cost or monthly subscription - $X,XXX
+  - Self-hosted deployment (no transaction fees)
+  - Includes Integration API, webhooks, JavaScript SDK
+  - PostgreSQL database included in hosting costs below
+- **Azure App Service (Sharetribe hosting):** ~$500-800/month
+  - Production tier (P2V2 or higher for Node.js/Express)
+  - Auto-scaling support for traffic spikes
+  - Includes SSL/TLS certificates
+- **Azure Database for PostgreSQL (Sharetribe data):** ~$300-500/month
+  - General Purpose tier with backup retention
+  - Sharetribe-managed schema + custom extensions
+- **Sharetribe Hosting Subtotal:** ~$800-1,300/month
+
 **Microsoft AI Platform Services (12 weeks + 3 months post-launch):**
 - **Microsoft Copilot Studio** (conversational AI platform): ~$500-1,000/month
   - Conversation volume-based pricing
   - Includes NLU+, multi-channel deployment, Agent Store
-- **Azure AI Search** (semantic search and knowledge base): ~$300-500/month
-  - Based on 10GB indexed supplier data
+- **Azure AI Search** (semantic search on Sharetribe data): ~$300-500/month
+  - Based on 10GB indexed supplier data from Sharetribe
   - Includes semantic ranker, vectorization
 - **Azure OpenAI Service** (LLM API calls): ~$200-400/month
   - GPT-4/GPT-5 for answer generation
   - Token-based pricing
-- **Phase 1 MVP Subtotal:** ~$1,000-2,000/month operational
+- **AI Services Subtotal:** ~$1,000-2,000/month operational
 
-**Additional Cloud Infrastructure:**
-- Azure App Service or AKS hosting (custom business logic): $X,XXX
-- PostgreSQL Database (Azure Database for PostgreSQL): $X,XXX
-- Azure API Management: $X,XXX
-- Azure AD B2C (user authentication): $XXX
-- Azure Monitor & Application Insights: $XXX
-- Storage and bandwidth (supplier documents, certifications): $XXX
+**Additional Azure Infrastructure:**
+- **Azure Functions** (webhook handlers, data sync): ~$100-200/month
+  - Serverless compute for Sharetribe Integration API processing
+  - Event-driven scaling
+- **Azure API Management:** ~$100-200/month
+  - Unified API gateway for Sharetribe + AI services
+- **Azure AD B2C** (user authentication & SSO): ~$50-100/month
+  - Integration with Sharetribe authentication
+- **Azure Monitor & Application Insights:** ~$100-200/month
+  - Monitoring for Sharetribe + AI services
+- **Azure Storage** (supplier documents, certifications): ~$50-100/month
+  - Blob storage for attachments
+- **Additional Infrastructure Subtotal:** ~$400-800/month
+
+**Total Monthly Operational Cost (Phase 1 MVP):**
+- Sharetribe Platform: ~$800-1,300/month
+- Microsoft AI Services: ~$1,000-2,000/month
+- Additional Infrastructure: ~$400-800/month
+- **TOTAL: ~$2,200-4,100/month** (vs. $15K-20K/month for custom marketplace + ML team)
 
 **Phase 2 Enhancement Costs (Post-MVP, Months 4-9):**
 - **Azure AI Foundry** (custom LLM orchestration): ~$1,000-2,000/month
@@ -1571,10 +1770,33 @@ Dubai Reach will leverage a **phased Microsoft platform adoption strategy** to b
 
 ### B. Reference Documents
 
+**Project Foundation:**
 - Dubai Reach Scope of Work (original SOW document)
 - Scope and Approach Outline Template (framework reference)
-- [To be added: Dubai Chambers IT Security Standards]
-- [To be added: Azure Architecture Best Practices]
+
+**Marketplace Platform Research:**
+- Research Summary - Marketplace Software Solutions with Sharetribe Analysis
+  - Comparative analysis of Sharetribe, CS-Cart, and Magento
+  - Identification of critical AI conversational search gap
+  - Rationale for custom development over off-the-shelf platforms
+
+**Microsoft AI Platform Research:**
+- Research Summary - Microsoft Copilot Studio and Azure AI Foundry for Closing the AI Conversational Search Gap
+  - Comprehensive analysis of Microsoft's 2025 AI platform capabilities
+  - Architectural patterns for marketplace + conversational AI integration
+  - Phase 1 (Copilot Studio + Azure AI Search) and Phase 2 (Azure AI Foundry) recommendations
+  - TCO analysis: $1,000-2,000/month operational vs. $200K-500K custom AI development
+
+**Related Microsoft Platform Documentation:**
+- Research Summary - Microsoft Copilot Studio and Azure AI Foundry for Customer Service (Seven Corners project)
+- Gartner 2024 Market Guide - Conversational AI Solutions - Full Extract
+- Research Summary - Virtual Assistant Best Practices
+
+**Technical Standards (To be added):**
+- [Dubai Chambers IT Security Standards]
+- [Azure Architecture Best Practices]
+- [Microsoft Copilot Studio Best Practices]
+- [Azure AI Search Optimization Guidelines]
 
 ### C. Contact Information
 
