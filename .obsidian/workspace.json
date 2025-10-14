@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "d58aa394e610e8ca",
+        "id": "79dfb97cb70aa519",
         "type": "tabs",
         "children": [
           {
-            "id": "c95fd7b8a293244b",
+            "id": "1b37361ee09dedd6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03_Resources/Discriminative AI Pension Funds/2025-10-09 Research Summary - Discriminative AI for Pension Funds.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2025-10-09 Research Summary - Discriminative AI for Pension Funds"
-            }
-          },
-          {
-            "id": "ea5cd474e10a8abb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2025-10-10.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-10-10"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -195,30 +176,43 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "ea5cd474e10a8abb",
+  "active": "1b37361ee09dedd6",
   "lastOpenFiles": [
-    "01_Projects/Seven Corners Travel Insurance - Customer Service Virtual Assistant/Pitch Deck Outline.md",
-    "2025-10-10.md.tmp.72443.1760132191010",
-    "03_Resources/Microsoft ECIF Program/Research Summary - Microsoft ECIF Program.md",
-    "03_Resources/Microsoft ECIF Program",
-    "03_Resources/GitHub Copilot Implementation/Research Summary - GitHub Copilot Enterprise Implementation.md",
-    "03_Resources/GitHub Copilot Implementation/Research Summary - GitHub Copilot Enterprise Implementation.md.tmp.72443.1760128206182",
-    "03_Resources/GitHub Copilot Implementation",
-    "01_Projects/Seven Corners Travel Insurance - Customer Service Virtual Assistant/Pitch Preparation Summary.md",
-    "01_Projects/Seven Corners Travel Insurance - Customer Service Virtual Assistant/Pitch Preparation Summary.md.tmp.72443.1760127852263",
-    "01_Projects/Seven Corners Travel Insurance - Customer Service Virtual Assistant/~$Seven Corners AI Virtual Assistant Pitch.pptx",
-    "01_Projects/Seven Corners Travel Insurance - Customer Service Virtual Assistant/Seven Corners AI Virtual Assistant Pitch.pptx",
-    "01_Projects/Seven Corners Travel Insurance - Customer Service Virtual Assistant/create_pitch_deck.py",
-    "01_Projects/Seven Corners Travel Insurance - Customer Service Virtual Assistant/create_pitch_deck.py.tmp.72443.1760127720045",
-    "01_Projects/Seven Corners Travel Insurance - Customer Service Virtual Assistant/Project Scope and Approach.md",
-    "03_Resources/Customer Service Virtual Assistant Best Practices/Research Summary - Virtual Assistant Best Practices.md",
-    "03_Resources/Customer Service Virtual Assistant Best Practices",
-    "2025-10-10.md",
-    "01_Projects/Seven Corners Travel Insurance - Customer Service Virtual Assistant/Research Summary - Microsoft Copilot Studio and Azure AI Foundry for Customer Service.md",
-    "01_Projects/Seven Corners Travel Insurance - Customer Service Virtual Assistant/Seven Corners Company Overview.md",
-    "Scope and Approach Outline.md",
+    "2025-10-13.md",
+    "Clippings/Managing multi-agent AI systems  IBM.md",
+    "05_Attachments/Gartner/innovation",
+    "05_Attachments/Gartner",
+    "Clippings/AI Model Types Past, Present and Predictions for the Future  IBM.md",
+    "Clippings/The 7 R's of Cloud Migration  IBM.md",
+    "01_Projects/Application Rationalization GTM/Client Presentation - 15 Minute Executive Version.md",
+    "03_Resources/Gartner/Gartner Search - application rationalization - 2025-10-14.md",
+    "03_Resources/Gartner",
+    "01_Projects/Application Rationalization GTM/README.md.tmp.89572.1760461735577",
+    "01_Projects/Application Rationalization GTM/Slide Deck Outline - Core Presentation.md.tmp.89572.1760461728393",
+    "01_Projects/Application Rationalization GTM/Client Presentation - 30 Minute Core Pitch.md.tmp.89572.1760461714256",
+    "01_Projects/Application Rationalization GTM/Client Presentation Narrative - Full Draft.md.tmp.89572.1760461701325",
+    "01_Projects/Application Rationalization GTM/README.md",
+    "01_Projects/Application Rationalization GTM/Slide Deck Outline - Core Presentation.md",
+    "01_Projects/Application Rationalization GTM/Client Presentation - 60 Minute Workshop Version.md",
+    "01_Projects/Application Rationalization GTM/Client Presentation Narrative - Full Draft.md",
+    "01_Projects/Application Rationalization GTM/Client Presentation - 30 Minute Core Pitch.md",
+    "01_Projects/Application Rationalization GTM/Offering Strategy Summary.md",
+    "03_Resources/Application Rationalization/In Application Rationalization, the Number of Applications Is Irrelevant.md",
+    "01_Projects/Application Rationalization GTM",
+    "03_Resources/Application Rationalization/How to Choose the Right Approach for Application Modernization and Cloud Migration.md",
+    "03_Resources/Application Rationalization/Using TIME for Application and Product Portfolio Triage Data From the Field.md",
+    "03_Resources/Application Rationalization/Quick Answer When Does — and Doesn’t — Application Consolidation Make Sense?.md",
+    "03_Resources/Application Rationalization/7 Steps to Rationalize Your Application Portfolio.md",
+    "03_Resources/Application Rationalization",
+    "03_Resources/Gartner 2024 Market Guide - Conversational AI Solutions - Full Extract.md",
     "03_Resources/Discriminative AI Pension Funds/2025-10-09 Research Summary - Discriminative AI for Pension Funds.md",
-    "01_Projects/Atlantic Health System - SharePoint Search Replacement/2025-10-09 Initial Discovery Conversation.md",
-    "CLAUDE-BOOTSTRAP.md"
+    "05_Attachments/README.md",
+    "pnpm-lock.yaml",
+    "Clippings/Advancing Open Source AI Through Benchmarks and Bold Experimentation.md",
+    "Clippings/The Rise of Computer Use and Agentic Coworkers.md",
+    "03_Resources/AI Tool Evaluation Framework/Research Summary - AI Tool Evaluation Framework for Enterprise Personas.md",
+    "Readwise/Articles/How to Pilot Generative AI by Gartner Highlights-2.md",
+    "Readwise/Readwise Syncs.md",
+    "Readwise/Articles/The Trillion Dollar AI Software Development Stack by Guido Appenzeller, Yoko Li Highlights.md"
   ]
 }
