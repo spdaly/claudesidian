@@ -1,3 +1,10 @@
+---
+title: Projects - Active Initiatives Guide
+type: reference
+tags: [para, projects, guide, workflow]
+purpose: Guidelines and workflows for managing time-bound projects
+date_created: 2025-10-13
+---
 # 🎯 Projects
 
 Active initiatives with specific outcomes and deadlines.

@@ -1,3 +1,21 @@
+---
+title: Seven Corners - Customer Service Virtual Assistant Project Scope and Approach
+date: 2025-10-10
+type: project
+status: draft
+client: Seven Corners Travel Insurance
+project: Customer Service Virtual Assistant
+version: 1.0
+tags: [seven-corners, project-scope, ai, virtual-assistant, implementation-plan]
+phases: ['Foundation (4 months)', 'Expansion (5 months)', 'Advanced AI (9 months)']
+total_duration: 18 months
+total_investment: $450,000
+key_metrics: ['25% CSAT improvement', '50% response time reduction', '40% containment rate', '356% ROI']
+technologies: ['Copilot Studio', 'Azure AI Search', 'Azure AI Foundry', 'Power Platform']
+methodology: Hybrid Agile
+priority: high
+stakeholders: ['Executive Sponsor', 'VP Customer Experience', 'IT Director', 'CFO', 'Customer Service Director']
+---
 # Seven Corners Travel Insurance - Customer Service Virtual Assistant
 ## Project Scope and Approach Document
 

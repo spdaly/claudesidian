@@ -1,3 +1,17 @@
+---
+title: Seven Corners Travel Insurance - Company Overview
+date: 2025-10-10
+type: reference
+client: Seven Corners Travel Insurance
+project: Customer Service Virtual Assistant
+tags: [seven-corners, travel-insurance, company-research, reference]
+location: Carmel, Indiana
+industry: Travel Insurance
+website: https://www.sevencorners.com/
+key_differentiators: ['24/7 Multilingual Support', 'Customizable Plans', 'Forbes Recognition', 'Pre-existing Condition Coverage']
+target_customers: ['U.S. Residents', 'Non-U.S. Residents', 'Individual Travelers', 'Group Travelers', 'Cruise Travelers', 'Expatriates', 'Digital Nomads']
+product_lines: ['Trip Protection Plans', 'Travel Medical Insurance']
+---
 # Seven Corners Company Overview
 
 **Company:** Seven Corners Travel Insurance

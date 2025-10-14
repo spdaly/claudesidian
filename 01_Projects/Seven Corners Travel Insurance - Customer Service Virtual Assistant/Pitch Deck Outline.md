@@ -1,3 +1,19 @@
+---
+title: Seven Corners AI Virtual Assistant Pitch - PowerPoint Presentation Outline
+date_prepared: 2025-10-10
+presentation_date: 2025-10-13
+type: pitch
+status: ready
+client: Seven Corners Travel Insurance
+project: Customer Service Virtual Assistant
+tags: [seven-corners, pitch, presentation, ai, sales, customer-service]
+target_audience: ['C-Suite', 'VP Customer Service', 'IT/Technology Leadership']
+duration: 20-25 minutes
+slide_count: 14
+key_messages: ['Discovery-First Approach', 'Phased Risk Mitigation', 'Triple Expertise', 'Human-Centered AI', 'Proven Technology', 'Results-Driven']
+investment: $450,000
+roi: 356% over 3 years
+---
 # Seven Corners Travel Insurance - AI Virtual Assistant Pitch
 ## PowerPoint Presentation Outline
 

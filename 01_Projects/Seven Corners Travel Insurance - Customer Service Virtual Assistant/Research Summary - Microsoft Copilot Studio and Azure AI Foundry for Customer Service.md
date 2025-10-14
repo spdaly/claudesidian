@@ -1,3 +1,17 @@
+---
+title: Research Summary - Microsoft Copilot Studio and Azure AI Foundry for Customer Service
+date: 2025-10-10
+type: research
+status: complete
+client: Seven Corners Travel Insurance
+project: Customer Service Virtual Assistant
+tags: [seven-corners, research, copilot-studio, azure-ai-foundry, microsoft, ai, customer-service]
+technologies: ['Microsoft Copilot Studio', 'Azure AI Foundry', 'Azure AI Search', 'Power Platform', 'Dynamics 365']
+platforms_compared: ['Copilot Studio', 'Azure AI Foundry']
+key_themes: ['Platform Selection', 'Travel Insurance Best Practices', 'Azure AI Search', '2025 Microsoft Updates']
+research_scope: ['Technical Capabilities', 'Integration Patterns', 'Best Practices', 'Market Trends']
+gaps_identified: ['Voice Channel Details', 'Cost Model Clarity', 'Performance Benchmarks', 'Seven Corners Technical Landscape']
+---
 # Research Summary: Seven Corners Travel Insurance Customer Service Virtual Assistant using Microsoft Copilot Studio and Azure AI Foundry
 
 **Research Date:** 2025-10-10

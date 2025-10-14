@@ -1,3 +1,25 @@
+---
+title: Atlantic Health System - SharePoint Search Replacement Initial Discovery
+date: 2025-10-09
+type: project
+status: discovery
+client: Atlantic Health System
+project: SharePoint Search Replacement
+deadline: 2026-07-01
+tags: [project, atlantic-health, sharepoint, search, discovery, cloud-architecture, azure, aws]
+stakeholders: ['IT Infrastructure Team', 'M365 Team', 'Clinical Informatics', 'Finance', 'Security/Compliance']
+technologies: ['SharePoint', 'AWS OpenSearch', 'Azure AI Search', 'Copilot Studio', 'M365']
+decision_factors: ['TCO', 'Multi-cloud', 'Security', 'User Experience', 'Timeline']
+key_insights:
+  - 'SharePoint functions as search aggregation platform, not content repository'
+  - 'EOL deadline (July 2026) is forcing function'
+  - 'M365 licensing already paid shifts TCO in favor of Microsoft solutions'
+  - 'Multi-cloud reality (AWS + M365) creates technical and political tensions'
+  - 'Interest in AI capabilities suggests desire to modernize UX beyond replacement'
+open_questions_count: 10
+solution_options: ['AWS OpenSearch', 'Azure AI Search', 'Copilot Studio']
+priority: high
+---
 # Atlantic Health System - SharePoint Search Replacement
 ## Initial Discovery Conversation
 **Date:** 2025-10-09

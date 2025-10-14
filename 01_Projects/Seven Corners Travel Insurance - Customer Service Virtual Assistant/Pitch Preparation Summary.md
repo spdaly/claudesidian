@@ -1,3 +1,17 @@
+---
+title: Seven Corners AI Virtual Assistant Pitch - Preparation Summary
+date_prepared: 2025-10-10
+pitch_date: 2025-10-13
+type: project
+status: ready
+client: Seven Corners Travel Insurance
+project: Customer Service Virtual Assistant
+tags: [seven-corners, pitch, preparation, checklist, sales]
+deliverables_created: ['Pitch Deck Outline', 'PowerPoint Presentation', 'Supporting Documents']
+core_narrative: Triple Expertise Story (Microsoft AI + Insurance + Contact Center)
+key_differentiators: ['Discovery-First Approach', 'Phased Risk Mitigation', 'Human-Centered AI', 'Proven Technology']
+success_criteria: ['Discovery engagement agreement', 'Workshop scheduled', 'Data access granted']
+---
 # Seven Corners AI Virtual Assistant Pitch - Preparation Summary
 
 **Pitch Date:** Monday, October 13, 2025
