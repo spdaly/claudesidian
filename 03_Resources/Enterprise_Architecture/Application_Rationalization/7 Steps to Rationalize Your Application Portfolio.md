@@ -1,12 +1,14 @@
 ---
 title: "7 Steps to Rationalize Your Application Portfolio"
+type: reference
 source: "https://www.gartner.com/document-reader/document/6327847?ref=solrAll&refval=501862016&"
-author:
-published:
-created: 2025-10-14
+source_type: gartner
+date_saved: 2025-10-14
 description: "Applications leaders face increasing pressure to reduce the cost of their portfolios. This research outlines a seven-step approach to consolidate and decommission overlapping applications, contributing to an ongoing practice of maintaining application portfolio health and cost optimization."
-tags:
-  - "clippings"
+tags: [application-rationalization, enterprise-architecture, cost-optimization, portfolio-management, gartner, clippings]
+key_concepts: [seven-step-approach, consolidation, decommissioning, portfolio-health]
+topic: Application Rationalization
+related_to: ["[[Application Rationalization]]", "[[In Application Rationalization, the Number of Applications Is Irrelevant]]"]
 ---
 Applications leaders face increasing pressure to reduce the cost of their portfolios. This research outlines a seven-step approach to consolidate and decommission overlapping applications, contributing to an ongoing practice of maintaining application portfolio health and cost optimization.
 

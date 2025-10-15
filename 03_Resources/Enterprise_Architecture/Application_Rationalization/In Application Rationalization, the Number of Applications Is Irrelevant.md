@@ -1,12 +1,14 @@
 ---
 title: "In Application Rationalization, the Number of Applications Is Irrelevant"
+type: reference
 source: "https://www.gartner.com/document-reader/document/code/351003?ref=authbody&refval=4006458"
-author:
-published:
-created: 2025-10-14
+source_type: gartner
+date_saved: 2025-10-14
 description: "Application rationalization is an imperative; businesses can no longer tolerate an expensive, inflexible application portfolio. But it is impossible for application leaders to rationalize the application portfolio. The real problem is the business processes."
-tags:
-  - "clippings"
+tags: [application-rationalization, enterprise-architecture, business-process, portfolio-management, gartner, clippings]
+key_concepts: [business-process-simplification, strategic-planning, portfolio-governance]
+topic: Application Rationalization
+related_to: ["[[Application Rationalization]]"]
 ---
 Application rationalization is an imperative; businesses can no longer tolerate an expensive, inflexible application portfolio. But it is impossible for application leaders to rationalize the application portfolio. The real problem is the business processes.
 

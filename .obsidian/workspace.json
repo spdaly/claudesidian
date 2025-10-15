@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "79dfb97cb70aa519",
+        "id": "5bb75ea2a4830cf9",
         "type": "tabs",
         "children": [
           {
-            "id": "1b37361ee09dedd6",
+            "id": "43733483469805e3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "00_Inbox/Magic Words Programming the Next Generation of AI Applications.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Magic Words Programming the Next Generation of AI Applications"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#portfolio-management",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 519.5
   },
   "right": {
     "id": "25e370b607475096",
@@ -158,7 +162,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -176,43 +180,45 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "1b37361ee09dedd6",
+  "active": "43733483469805e3",
   "lastOpenFiles": [
-    "2025-10-13.md",
-    "Clippings/Managing multi-agent AI systems  IBM.md",
-    "05_Attachments/Gartner/innovation",
-    "05_Attachments/Gartner",
-    "Clippings/AI Model Types Past, Present and Predictions for the Future  IBM.md",
-    "Clippings/The 7 R's of Cloud Migration  IBM.md",
-    "01_Projects/Application Rationalization GTM/Client Presentation - 15 Minute Executive Version.md",
-    "03_Resources/Gartner/Gartner Search - application rationalization - 2025-10-14.md",
-    "03_Resources/Gartner",
-    "01_Projects/Application Rationalization GTM/README.md.tmp.89572.1760461735577",
-    "01_Projects/Application Rationalization GTM/Slide Deck Outline - Core Presentation.md.tmp.89572.1760461728393",
-    "01_Projects/Application Rationalization GTM/Client Presentation - 30 Minute Core Pitch.md.tmp.89572.1760461714256",
-    "01_Projects/Application Rationalization GTM/Client Presentation Narrative - Full Draft.md.tmp.89572.1760461701325",
-    "01_Projects/Application Rationalization GTM/README.md",
     "01_Projects/Application Rationalization GTM/Slide Deck Outline - Core Presentation.md",
-    "01_Projects/Application Rationalization GTM/Client Presentation - 60 Minute Workshop Version.md",
+    "00_Inbox/Magic Words Programming the Next Generation of AI Applications.md",
+    "01_Projects/Application Rationalization GTM/~$Slide Deck Outline - Core Presentation.pptx",
+    "01_Projects/Application Rationalization GTM/Slide Deck Outline - Core Presentation.pptx",
+    "02_Areas/Service Offerings/Application Rationalization.md",
+    "01_Projects/Atlantic Health System - SharePoint Search Replacement/2025-10-09 Initial Discovery Conversation.md",
+    "03_Resources/AI_Implementation/Developer_Productivity/Research Summary - GitHub Copilot Enterprise Implementation.md",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "03_Resources/Enterprise_Architecture/Application_Rationalization/In Application Rationalization, the Number of Applications Is Irrelevant.md",
+    "03_Resources/Application Rationalization/Using TIME for Application and Product Portfolio Triage Data From the Field.md.tmp.51058.1760546819079",
+    "03_Resources/Discriminative AI Pension Funds/2025-10-09 Research Summary - Discriminative AI for Pension Funds.md.tmp.51058.1760541811309",
+    "03_Resources/Microsoft ECIF Program/Research Summary - Microsoft ECIF Program.md.tmp.51058.1760541811068",
+    "00_Inbox/Market Guide for Data Management Platforms.md",
+    "03_Resources/Enterprise_Architecture/Marketplace_Platforms/Research Summary - Microsoft Copilot Studio and Azure AI Foundry for Closing the AI Conversational Search Gap.md.tmp.51058.1760541590276",
+    "03_Resources/Gartner/Gartner Search - application rationalization - 2025-10-14.md.tmp.51058.1760541559262",
+    "03_Resources/Enterprise_Architecture/Application_Rationalization/7 Steps to Rationalize Your Application Portfolio.md.tmp.51058.1760541469171",
+    "03_Resources/AI_Implementation/Developer_Productivity/Sens-AI Framework - From Habits to Tools.md",
+    "00_Inbox/Welcome.md",
+    "00_Inbox/From Habits to Tools.md",
+    "00_Inbox/README.md",
+    "02_Areas/Client Relationships/Epiq Global - Relationship Management.md",
+    "CLAUDE.md.tmp.51058.1760541166768",
+    "02_Areas/Contacts/[CIO Name] - Epiq Global.md",
+    "02_Areas/Contacts/[CIO Name] - Epiq Global.md.tmp.51058.1760541145413",
+    "06_Metadata/Templates/Contact Template.md",
+    "02_Areas/Client Relationships/Atlantic Health System - Relationship Management.md",
+    "02_Areas/Client Relationships/Seven Corners - Relationship Management.md",
+    "02_Areas/Client Relationships/Dubai Chambers - Relationship Management.md",
     "01_Projects/Application Rationalization GTM/Client Presentation Narrative - Full Draft.md",
-    "01_Projects/Application Rationalization GTM/Client Presentation - 30 Minute Core Pitch.md",
-    "01_Projects/Application Rationalization GTM/Offering Strategy Summary.md",
-    "03_Resources/Application Rationalization/In Application Rationalization, the Number of Applications Is Irrelevant.md",
-    "01_Projects/Application Rationalization GTM",
-    "03_Resources/Application Rationalization/How to Choose the Right Approach for Application Modernization and Cloud Migration.md",
-    "03_Resources/Application Rationalization/Using TIME for Application and Product Portfolio Triage Data From the Field.md",
-    "03_Resources/Application Rationalization/Quick Answer When Does — and Doesn’t — Application Consolidation Make Sense?.md",
-    "03_Resources/Application Rationalization/7 Steps to Rationalize Your Application Portfolio.md",
-    "03_Resources/Application Rationalization",
-    "03_Resources/Gartner 2024 Market Guide - Conversational AI Solutions - Full Extract.md",
-    "03_Resources/Discriminative AI Pension Funds/2025-10-09 Research Summary - Discriminative AI for Pension Funds.md",
-    "05_Attachments/README.md",
-    "pnpm-lock.yaml",
-    "Clippings/Advancing Open Source AI Through Benchmarks and Bold Experimentation.md",
-    "Clippings/The Rise of Computer Use and Agentic Coworkers.md",
-    "03_Resources/AI Tool Evaluation Framework/Research Summary - AI Tool Evaluation Framework for Enterprise Personas.md",
-    "Readwise/Articles/How to Pilot Generative AI by Gartner Highlights-2.md",
-    "Readwise/Readwise Syncs.md",
-    "Readwise/Articles/The Trillion Dollar AI Software Development Stack by Guido Appenzeller, Yoko Li Highlights.md"
+    "CLAUDE.md",
+    "01_Projects/Dubai Chambers - Dubai Reach/Project Scope and Approach.md",
+    "01_Projects/Application Rationalization GTM/Client Presentation - 15 Minute Executive Version.md",
+    "03_Resources/Enterprise_Architecture/Marketplace_Platforms/Research Summary - Marketplace Software Solutions with Sharetribe Analysis.md",
+    "03_Resources/Enterprise_Architecture/Marketplace_Platforms/Research Summary - Microsoft Copilot Studio and Azure AI Foundry for Closing the AI Conversational Search Gap.md",
+    "03_Resources/Enterprise_Architecture/Application_Rationalization/How to Choose the Right Approach for Application Modernization and Cloud Migration.md",
+    "03_Resources/Enterprise_Architecture/Application_Rationalization/7 Steps to Rationalize Your Application Portfolio.md",
+    "03_Resources/AI_Implementation/Customer_Service_Virtual_Assistants/Research Summary - Virtual Assistant Best Practices.md"
   ]
 }

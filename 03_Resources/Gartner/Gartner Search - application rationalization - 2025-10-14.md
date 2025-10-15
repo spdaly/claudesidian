@@ -1,3 +1,15 @@
+---
+title: "Gartner Search - Application Rationalization"
+type: search-results
+date_created: 2025-10-14
+search_term: "application rationalization"
+results_count: 5
+source_type: gartner
+tags: [gartner, search-results, application-rationalization, portfolio-management]
+topic: Application Rationalization Research
+related_to: ["[[Application Rationalization]]", "[[7 Steps to Rationalize Your Application Portfolio]]"]
+---
+
 # Gartner Search Results: Application Rationalization
 
 ---

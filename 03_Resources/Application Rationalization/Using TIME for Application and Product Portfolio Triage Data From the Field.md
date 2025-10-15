@@ -1,12 +1,14 @@
 ---
 title: "Using TIME for Application and Product Portfolio Triage: Data From the Field"
-source: "https://www.gartner.com/document-reader/document/4006458?ref=authrightrec&refval=5594859"
-author:
-published:
-created: 2025-10-14
-description: "Applications and software engineering leaders have been using Gartner’s TIME analysis to clean up their portfolios for almost two decades. Data from Gartner Consulting application portfolio optimization projects shows what leaders are finding and the remediation actions they take."
-tags:
-  - "clippings"
+type: reference
+source: "https://www.gartner.com/document-reader/document/4006458"
+source_type: gartner
+date_created: 2025-10-14
+tags: [time-framework, application-rationalization, portfolio-management, enterprise-architecture, gartner, clippings]
+key_concepts: [time-model, tolerate-invest-migrate-eliminate, portfolio-triage, business-fitness, technical-fitness]
+topic: Application Portfolio Management
+related_to: ["[[Application Rationalization]]", "[[7 Steps to Rationalize Your Application Portfolio]]"]
+description: "Applications and software engineering leaders have been using Gartner's TIME analysis to clean up their portfolios for almost two decades. Data from Gartner Consulting application portfolio optimization projects shows what leaders are finding and the remediation actions they take."
 ---
 Applications and software engineering leaders have been using Gartner’s TIME analysis to clean up their portfolios for almost two decades. Data from Gartner Consulting application portfolio optimization projects shows what leaders are finding and the remediation actions they take.
 

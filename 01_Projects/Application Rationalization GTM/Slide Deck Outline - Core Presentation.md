@@ -89,7 +89,7 @@ variants: [15-minute, 30-minute, 60-minute]
 **Content:**
 - Center: Icon representing "AI Feature"
 - Radiating out: Multiple application icons
-- Each connection shows "$$$"
+- Each connection shows "$$"
 - Bottom: "Redundancy multiplies AI costs"
 
 **Visual:** Clean diagram showing cost multiplication

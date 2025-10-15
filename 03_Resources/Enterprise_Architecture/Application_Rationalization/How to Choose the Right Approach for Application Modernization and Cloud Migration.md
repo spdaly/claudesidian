@@ -1,12 +1,14 @@
 ---
 title: "How to Choose the Right Approach for Application Modernization and Cloud Migration"
+type: reference
 source: "https://www.gartner.com/document-reader/document/code/772600?ref=ddisp&refval=772600"
-author:
-published:
-created: 2025-10-14
-description: "Each of the application modernization and cloud migration approaches varies substantially in terms of scope and effect. Enterprise application leaders should use Gartner’s evaluation framework to select an approach that will produce the desired results, with acceptable cost, risk and impact."
-tags:
-  - "clippings"
+source_type: gartner
+date_saved: 2025-10-14
+description: "Each of the application modernization and cloud migration approaches varies substantially in terms of scope and effect. Enterprise application leaders should use Gartner's evaluation framework to select an approach that will produce the desired results, with acceptable cost, risk and impact."
+tags: [application-modernization, cloud-migration, enterprise-architecture, decision-framework, gartner, clippings]
+key_concepts: [modernization-approaches, evaluation-framework, cost-risk-analysis, 7-rs-framework]
+topic: Application Modernization
+related_to: ["[[Application Rationalization]]", "[[7 Steps to Rationalize Your Application Portfolio]]"]
 ---
 ## Overview
 

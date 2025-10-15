@@ -1,8 +1,17 @@
-# Research Summary: Customer Service Virtual Assistant Best Practices
+---
+title: "Research Summary - Virtual Assistant Best Practices"
+type: reference
+date_created: 2025-10-10
+status: complete
+category: AI/Customer Service Best Practices
+tags: [customer-service, virtual-assistant, conversational-ai, best-practices, microsoft-copilot-studio, azure-ai-foundry, research-summary]
+key_concepts: [24x7-availability, human-handoff, personalization, multilingual-support, compliance, continuous-improvement]
+topic: Customer Service Virtual Assistants
+related_to: ["[[Seven Corners - Relationship Management]]", "[[Research Summary - Microsoft Copilot Studio and Azure AI Foundry for Closing the AI Conversational Search Gap]]"]
+purpose: Comprehensive best practices for implementing customer service virtual assistants across industries
+---
 
-**Research Date:** 2025-10-10
-**Status:** Vault Research Complete
-**Category:** AI/Customer Service Best Practices
+# Research Summary: Customer Service Virtual Assistant Best Practices
 
 ---
 

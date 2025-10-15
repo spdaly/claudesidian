@@ -69,3 +69,4 @@ findings.
 - Look for surprising connections
 - Don't ignore contradictions - they're often where insights live
 - Always suggest concrete next actions
+- Always review content in the Readwise folder in the vault.

@@ -1,13 +1,16 @@
 ---
-title: "Quick Answer: When Does — and Doesn’t — Application Consolidation Make Sense?"
-source: "https://www.gartner.com/document-reader/document/5594859?ref=authrightrec&refval=6327847"
-author:
-published:
-created: 2025-10-14
-description: "Application consolidation can be an effective instrument for IT cost optimization. However, enterprise application leaders must identify areas where application consolidation can help drive economies of scale as well as areas that aren’t ripe for standardization."
-tags:
-  - "clippings"
+title: "Quick Answer: When Does — and Doesn't — Application Consolidation Make Sense?"
+type: reference
+source: "https://www.gartner.com/document-reader/document/5594859"
+source_type: gartner
+date_created: 2025-10-14
+tags: [application-consolidation, application-rationalization, enterprise-architecture, cost-optimization, gartner, clippings]
+key_concepts: [economies-of-scale, process-consistency, standardization]
+topic: Application Consolidation
+related_to: ["[[Application Rationalization]]", "[[7 Steps to Rationalize Your Application Portfolio]]"]
+description: "Application consolidation can be an effective instrument for IT cost optimization. However, enterprise application leaders must identify areas where application consolidation can help drive economies of scale as well as areas that aren't ripe for standardization."
 ---
+
 Application consolidation can be an effective instrument for IT cost optimization. However, enterprise application leaders must identify areas where application consolidation can help drive economies of scale as well as areas that aren’t ripe for standardization.
 
 ### Quick Answer

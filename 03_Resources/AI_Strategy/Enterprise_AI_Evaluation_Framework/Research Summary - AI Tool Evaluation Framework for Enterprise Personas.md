@@ -1,9 +1,18 @@
-# Research Summary: Framework to Evaluate AI Tools for Different Enterprise Personas
+---
+title: "Research Summary - AI Tool Evaluation Framework for Enterprise Personas"
+type: reference
+date_created: 2025-10-13
+status: complete
+category: AI Strategy / Enterprise Decision-Making
+tags: [ai-strategy, enterprise-evaluation, persona-framework, roi-analysis, stakeholder-management, research-summary]
+key_concepts: [multi-persona-evaluation, phased-approach, roi-layers, risk-assessment, success-metrics]
+topic: Enterprise AI Evaluation
+related_to: ["[[Seven Corners - Relationship Management]]", "[[Research Summary - GitHub Copilot Enterprise Implementation]]", "[[Research Summary - Microsoft ECIF Program]]"]
+purpose: Framework for evaluating AI tools across multiple enterprise personas with distinct priorities and success criteria
+research_method: Synthesis from vault projects
+---
 
-**Research Date:** 2025-10-13
-**Status:** Vault Research Complete
-**Category:** AI Strategy / Enterprise Decision-Making
-**Method:** Synthesis from vault projects (Seven Corners, GitHub Copilot, Microsoft ECIF)
+# Research Summary: Framework to Evaluate AI Tools for Different Enterprise Personas
 
 ---
 

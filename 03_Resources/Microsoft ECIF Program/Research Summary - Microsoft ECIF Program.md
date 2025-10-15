@@ -1,8 +1,17 @@
-# Research Summary: Microsoft ECIF (End Customer Investment Funds) Program
+---
+title: "Research Summary - Microsoft ECIF Program"
+type: reference
+date_created: 2025-10-10
+status: complete
+category: Microsoft Partner Programs / Funding Opportunities
+tags: [microsoft, ecif, funding, azure, partner-programs, macc, ai-adoption, research-summary]
+key_concepts: [ecif-funding, macc-commitment, field-led-program, acr-ratio, strategic-investment]
+topic: Microsoft Partner Funding Programs
+related_to: ["[[Seven Corners - Relationship Management]]", "[[Research Summary - GitHub Copilot Enterprise Implementation]]", "[[Research Summary - AI Tool Evaluation Framework for Enterprise Personas]]"]
+purpose: Comprehensive guide to Microsoft ECIF funding program for accelerating cloud and AI adoption
+---
 
-**Research Date:** 2025-10-10
-**Status:** Web Research Complete
-**Category:** Microsoft Partner Programs / Funding Opportunities
+# Research Summary: Microsoft ECIF (End Customer Investment Funds) Program
 
 ---
 

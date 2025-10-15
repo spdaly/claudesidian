@@ -1,3 +1,19 @@
+---
+title: "Gartner 2024 Market Guide - Conversational AI Solutions - Full Extract"
+type: reference
+source: "https://www.gartner.com/document/6780334"
+source_type: gartner
+document_id: G00807063
+date_published: 2024-04-03
+date_saved: 2025-10-14
+tags: [gartner, market-guide, conversational-ai, genai, llm, chatbots, virtual-assistants, clippings]
+key_concepts: [genai-native-vs-hybrid, use-case-alignment, market-consolidation, enterprise-grade-cai]
+topic: Conversational AI Market Guide
+related_to: ["[[Research Summary - Virtual Assistant Best Practices]]", "[[Research Summary - Microsoft Copilot Studio and Azure AI Foundry for Closing the AI Conversational Search Gap]]"]
+reading_time: 28 minutes
+pages: 25
+---
+
 # Gartner 2024 Market Guide for Conversational AI Solutions
 
 **Document ID**: G00807063

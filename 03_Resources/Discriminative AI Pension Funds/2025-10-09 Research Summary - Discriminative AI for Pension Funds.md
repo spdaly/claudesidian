@@ -1,8 +1,18 @@
-# Research Summary: Discriminative Artificial Intelligence Solutions for the Pension Fund Industry
+---
+title: "Research Summary - Discriminative AI for Pension Funds"
+type: reference
+date_created: 2025-10-09
+status: complete
+category: AI Applications in Financial Services
+tags: [discriminative-ai, pension-funds, financial-services, fraud-detection, portfolio-optimization, machine-learning, research-summary]
+key_concepts: [discriminative-vs-generative, fraud-detection, risk-classification, portfolio-optimization, member-behavior-prediction, actuarial-analysis]
+topic: AI in Pension Fund Management
+related_to: []
+purpose: Comprehensive analysis of discriminative AI applications for pension fund fraud detection, portfolio optimization, and operational efficiency
+market_size: "$2.49B (2024) to $2.99B (2025), 20.1% CAGR"
+---
 
-**Research Date:** 2025-10-09
-**Status:** Initial Research Complete
-**Category:** AI Applications in Financial Services
+# Research Summary: Discriminative Artificial Intelligence Solutions for the Pension Fund Industry
 
 ---
 
