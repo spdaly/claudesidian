@@ -5,7 +5,7 @@
   "triggerOnLoad": true,
   "isSyncing": false,
   "lastSyncFailed": false,
-  "lastSavedStatusID": 22577773,
+  "lastSavedStatusID": 22692797,
   "currentSyncStatusID": 0,
   "refreshBooks": false,
   "booksToRefresh": [],
@@ -849,7 +849,11 @@
     "Readwise/Articles/2-Year CEO Timeline for Agentic AI From McKinsey by Enterprise AI Executive (formerly Generative AI Enterprise) Highlights.md": "55432174",
     "Readwise/Articles/Effective Context Engineering for AI Agents by anthropic.com Highlights.md": "55457094",
     "Readwise/Articles/Vibe Engineering by Simon Willison Highlights.md": "55511863",
-    "Readwise/Articles/The Trillion Dollar AI Software Development Stack by Guido Appenzeller, Yoko Li Highlights.md": "55603609"
+    "Readwise/Articles/The Trillion Dollar AI Software Development Stack by Guido Appenzeller, Yoko Li Highlights.md": "55603609",
+    "Readwise/Articles/Jump-Start Your AI Agent Journey to Win at Tech Sales by Gartner Research Highlights.md": "55641357",
+    "Readwise/Articles/The Big Rethink An Agenda for Thriving in the Agentic Age by McKinsey & Company Highlights.md": "55743520",
+    "Readwise/Articles/A Human-Centered Approach to Competitive Advantage by Kord Davis Highlights.md": "55743728",
+    "Readwise/Articles/How a Simple Formula Sparked My Next Book by Christoph Molnar from Mindful Modeler Highlights.md": "55780986"
   },
   "reimportShowConfirmation": true
 }

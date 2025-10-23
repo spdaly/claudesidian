@@ -1,0 +1,2 @@
+- Create a presentation from:
+	- [[Innovation Processes and Governance]]

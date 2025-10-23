@@ -849,4 +849,12 @@ How AI Really Learns: The Journey from Random Noise to Intelligence by Nir Diama
 - [[2025-10-13]]: 1 highlights from [[Vibe Engineering by Simon Willison Highlights]]
 - [[2025-10-13]]: 3 highlights from [[The Trillion Dollar AI Software Development Stack by Guido Appenzeller, Yoko Li Highlights]]
 ## 2025-10-15 8:04 AM — Synced 0 highlights from 0 documents.
+## 2025-10-15 1:58 PM — Synced 1 highlight from 1 document.
+- [[2025-10-15]]: 1 highlights from [[Jump-Start Your AI Agent Journey to Win at Tech Sales by Gartner Research Highlights]]
+## 2025-10-20 10:02 AM — Synced 0 highlights from 0 documents.
+## 2025-10-21 6:42 AM — Synced 6 highlights from 2 documents.
+- [[2025-10-21]]: 2 highlights from [[The Big Rethink: An Agenda for Thriving in the Agentic Age by McKinsey & Company Highlights]]
+- [[2025-10-21]]: 4 highlights from [[A Human-Centered Approach to Competitive Advantage by Kord Davis Highlights]]
+## 2025-10-22 1:19 PM — Synced 2 highlights from 1 document.
+- [[2025-10-22]]: 2 highlights from [[How a Simple Formula Sparked My Next Book by Christoph Molnar from Mindful Modeler Highlights]]
 

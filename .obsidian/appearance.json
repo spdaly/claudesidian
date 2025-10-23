@@ -1,1 +1,6 @@
-{}
+{
+  "cssTheme": "Minimal",
+  "theme": "obsidian",
+  "baseFontSize": 26,
+  "baseFontSizeAction": true
+}

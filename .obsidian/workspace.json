@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_Inbox/Magic Words Programming the Next Generation of AI Applications.md",
+                "file": "01_Projects/AI Shockwave CPE Workshop/AI Shockwave CPE Workshop - 2 Hour Presentation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Magic Words Programming the Next Generation of AI Applications"
+              "title": "AI Shockwave CPE Workshop - 2 Hour Presentation"
+            }
+          },
+          {
+            "id": "39c74de2347580f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2025-10-23.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-10-23"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -53,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#portfolio-management",
+                "query": "hybrid innovation",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,12 +88,23 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
+          },
+          {
+            "id": "11e79ff3fb5db20d",
+            "type": "leaf",
+            "state": {
+              "type": "notebook-navigator",
+              "state": {},
+              "icon": "notebook",
+              "title": "Notebook Navigator"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 519.5
+    "width": 292.5
   },
   "right": {
     "id": "25e370b607475096",
@@ -166,7 +192,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -177,48 +204,49 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "obsidian-git:Open Git source control": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "43733483469805e3",
+  "active": "11e79ff3fb5db20d",
   "lastOpenFiles": [
-    "01_Projects/Application Rationalization GTM/Slide Deck Outline - Core Presentation.md",
-    "00_Inbox/Magic Words Programming the Next Generation of AI Applications.md",
-    "01_Projects/Application Rationalization GTM/~$Slide Deck Outline - Core Presentation.pptx",
-    "01_Projects/Application Rationalization GTM/Slide Deck Outline - Core Presentation.pptx",
-    "02_Areas/Service Offerings/Application Rationalization.md",
-    "01_Projects/Atlantic Health System - SharePoint Search Replacement/2025-10-09 Initial Discovery Conversation.md",
-    "03_Resources/AI_Implementation/Developer_Productivity/Research Summary - GitHub Copilot Enterprise Implementation.md",
-    "Untitled 1.canvas",
-    "Untitled.canvas",
-    "03_Resources/Enterprise_Architecture/Application_Rationalization/In Application Rationalization, the Number of Applications Is Irrelevant.md",
-    "03_Resources/Application Rationalization/Using TIME for Application and Product Portfolio Triage Data From the Field.md.tmp.51058.1760546819079",
-    "03_Resources/Discriminative AI Pension Funds/2025-10-09 Research Summary - Discriminative AI for Pension Funds.md.tmp.51058.1760541811309",
-    "03_Resources/Microsoft ECIF Program/Research Summary - Microsoft ECIF Program.md.tmp.51058.1760541811068",
-    "00_Inbox/Market Guide for Data Management Platforms.md",
-    "03_Resources/Enterprise_Architecture/Marketplace_Platforms/Research Summary - Microsoft Copilot Studio and Azure AI Foundry for Closing the AI Conversational Search Gap.md.tmp.51058.1760541590276",
-    "03_Resources/Gartner/Gartner Search - application rationalization - 2025-10-14.md.tmp.51058.1760541559262",
-    "03_Resources/Enterprise_Architecture/Application_Rationalization/7 Steps to Rationalize Your Application Portfolio.md.tmp.51058.1760541469171",
-    "03_Resources/AI_Implementation/Developer_Productivity/Sens-AI Framework - From Habits to Tools.md",
-    "00_Inbox/Welcome.md",
-    "00_Inbox/From Habits to Tools.md",
-    "00_Inbox/README.md",
-    "02_Areas/Client Relationships/Epiq Global - Relationship Management.md",
-    "CLAUDE.md.tmp.51058.1760541166768",
-    "02_Areas/Contacts/[CIO Name] - Epiq Global.md",
-    "02_Areas/Contacts/[CIO Name] - Epiq Global.md.tmp.51058.1760541145413",
-    "06_Metadata/Templates/Contact Template.md",
+    "00_Inbox/Harvey.AI.md",
+    "2025-10-23.md",
+    "03_Resources/AI & Technology/Gap Analysis - Harvey.AI Deep Dive Research.md",
+    "03_Resources/AI & Technology/Research Summary - Harvey.AI for Corporate Legal Departments.md",
+    "2025-10-22.md",
     "02_Areas/Client Relationships/Atlantic Health System - Relationship Management.md",
-    "02_Areas/Client Relationships/Seven Corners - Relationship Management.md",
-    "02_Areas/Client Relationships/Dubai Chambers - Relationship Management.md",
-    "01_Projects/Application Rationalization GTM/Client Presentation Narrative - Full Draft.md",
-    "CLAUDE.md",
-    "01_Projects/Dubai Chambers - Dubai Reach/Project Scope and Approach.md",
-    "01_Projects/Application Rationalization GTM/Client Presentation - 15 Minute Executive Version.md",
-    "03_Resources/Enterprise_Architecture/Marketplace_Platforms/Research Summary - Marketplace Software Solutions with Sharetribe Analysis.md",
-    "03_Resources/Enterprise_Architecture/Marketplace_Platforms/Research Summary - Microsoft Copilot Studio and Azure AI Foundry for Closing the AI Conversational Search Gap.md",
-    "03_Resources/Enterprise_Architecture/Application_Rationalization/How to Choose the Right Approach for Application Modernization and Cloud Migration.md",
-    "03_Resources/Enterprise_Architecture/Application_Rationalization/7 Steps to Rationalize Your Application Portfolio.md",
-    "03_Resources/AI_Implementation/Customer_Service_Virtual_Assistants/Research Summary - Virtual Assistant Best Practices.md"
+    "02_Areas/Client Relationships/Meta - Relationship Management.md",
+    "Readwise/Articles/How a Simple Formula Sparked My Next Book by Christoph Molnar from Mindful Modeler Highlights.md",
+    "00_Inbox/Introducing Azure Accelerate Fueling transformation with experts and investments across your cloud and AI journey.md",
+    "01_Projects/AI Shockwave CPE Workshop/AI Shockwave CPE Workshop - 2 Hour Presentation.md.tmp.51358.1761137189619",
+    "01_Projects/Power BI Fabric Migration/README.md",
+    "03_Resources/AI & Technology/Gartner Research/00 - Gartner Research Index.md",
+    "02_Areas/Service Offerings/Power BI Fabric Migration & AI Strategy.md",
+    "02_Areas/Service Offerings/Power BI Fabric Migration & AI Strategy.md.tmp.51358.1761136825502",
+    "01_Projects/Power BI Fabric Migration/Power BI Fabric Migration - Consulting Positioning Exploration.md",
+    "01_Projects/Power BI Fabric Migration/Power BI Fabric - Quick Reference.md",
+    "01_Projects/Power BI Fabric Migration",
+    "03_Resources/AI & Technology/Gartner Research/Toolkit Assessing Your Enterprise’s Likelihood of Disruption From AI Shockwaves.md",
+    "03_Resources/AI & Technology/Gartner Research/The AI Bubble That Wasn’t Misread Signals in the Era of Real Transformation.md",
+    "00_Inbox/Case Study Executive Alignment for AI Transformation.md",
+    "03_Resources/AI & Technology/Gartner Research/How to Decide Whether to Build, Buy or Blend Your AI Projects.md",
+    "03_Resources/AI & Technology/Gartner Research/Case Study Executive Alignment for AI Transformation.md",
+    "03_Resources/AI & Technology/Gartner Research/AI Shockwaves Are the Real Disruptors That Emerge in the Postproductivity Era.md",
+    "03_Resources/AI & Technology/Gartner Research",
+    "00_Inbox/01_Projects/Power BI Fabric Migration",
+    "00_Inbox/01_Projects",
+    "00_Inbox/03_Resources/AI & Technology/Gartner Research",
+    "00_Inbox/03_Resources/AI & Technology",
+    "00_Inbox/03_Resources",
+    "00_Inbox/How to Decide Whether to Build, Buy or Blend Your AI Projects.md",
+    "00_Inbox/Toolkit Assessing Your Enterprise’s Likelihood of Disruption From AI Shockwaves.md",
+    "00_Inbox/AI Shockwaves Are the Real Disruptors That Emerge in the Postproductivity Era.md",
+    "00_Inbox/The AI Bubble That Wasn’t Misread Signals in the Era of Real Transformation.md",
+    "00_Inbox/Power BI Fabric - Quick Reference.md",
+    "00_Inbox/Power BI Fabric Migration - Consulting Positioning Exploration.md.tmp.30310.1761047984246",
+    "00_Inbox/Power BI Fabric Migration - Consulting Positioning Exploration.md",
+    "Untitled 1.canvas",
+    "Untitled.canvas"
   ]
 }
